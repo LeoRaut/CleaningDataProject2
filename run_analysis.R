@@ -50,7 +50,7 @@ merged_test_data <- cbind(y_test, subject_test, x_test)
 
 FullDataSet <- rbind(merged_training_data, merged_test_data)
 
-#subet the data to only have means and standard deviations
+# get the names of each column in the data set to make the subset easier.
 colNames <- colnames(FullDataSet)
 
 
